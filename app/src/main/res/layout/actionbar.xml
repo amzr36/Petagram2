@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_actionbar"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/Theme.AppCompat.Light">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="3mm"
+        android:text="@string/app_name"/>
+
+    <item
+        android:id="@+id/iHuella"
+        android:title="@string/menu_huella"
+        android:icon="@drawable/huella"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/iLike"
+        android:title="@string/menu_fav"
+        android:icon="@drawable/fav"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/mAbout"
+        android:title="@string/menu_about"
+        android:orderInCategory="1"></item>
+    <item
+        android:id="@+id/mSettings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="2"></item>
+
+
+</android.support.v7.widget.Toolbar>

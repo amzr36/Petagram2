@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="nombre_pet">35dp</dimen>
+    <dimen name="likes_pet">25dp</dimen>
+    <dimen name="margentop">20dp</dimen>
+    <dimen name="left">20dp</dimen>
+    <dimen name="espacio_hueso">100dp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="nombre_cardview">20dp</dimen>
+    <dimen name="datos_cardview">15dp</dimen>
+    <dimen name="separacion_tarjeta">7dp</dimen>
+    <dimen name="tamaño_floating_Buttom">10mm</dimen>
+</resources>
